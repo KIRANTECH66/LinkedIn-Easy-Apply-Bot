@@ -1,29 +1,43 @@
-username: <username>
-password: <password>
-phone_number: <phone_number>
+username: kirantech66@gmail.com
+password: Padma@vijay15
+phone_number: +1(929) 324-7144
 
-profile_path: '' #can be empty, will default to 'C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default'
+profile_path: '/Users/kiran/Downloads/Job/LinkedIn-Easy-Apply-Bot/doc/Kiran_Peddi_Senior_Platform_Engineer.pdf'
 
 
 positions:
-- Software Engineer
+- DevOps Engineer
 
 
 locations:
-- Michigan
 - Remote
 
 salary: 60,000
 rate: 25
 # --------- Optional Parameters -------
+resume_sample: /Users/kiran/Downloads/Job/LinkedIn-Easy-Apply-Bot/cv.pdf
+blackListTitles: []
 uploads:
-  Resume: /Users/steven/Desktop/LinkedIn-Easy-Apply-Bot/cv.pdf
-  Cover Letter: /Users/steven/Desktop/LinkedIn-Easy-Apply-Bot/cl.pdf
+  Resume: '/Users/kiran/Downloads/Job/LinkedIn-Easy-Apply-Bot/doc/Kiran_Peddi_Senior_Platform_Engineer.pdf'
+  Cover Letter: '/Users/kiran/Downloads/Job/LinkedIn-Easy-Apply-Bot/doc/Kiran_Peddi_Senior_Platform_Engineer.pdf'
   #Photo: # PATH TO photo
 
 
 output_filename:
-- /Users/steven/Desktop/LinkedIn-Easy-Apply-Bot/out.csv
+- /Users/kiran/Downloads/Job/LinkedIn-Easy-Apply-Bot/out.csv
+
+# --------- AI Agent Settings -------
+ai:
+  provider: "anthropic"
+  model: "gpt-4o"
+  anthropic_model: "claude-sonnet-4"
+  scoring_threshold: 0.7
+  max_jobs_per_run: 20
+  batch_size: 10
+  human_approval: false
+  review_file: "review_batch.md"
+  api_timeout_minutes: 10
+  recency_priority: true
 
 # blacklist:
 # - # Company names you want to ignore
