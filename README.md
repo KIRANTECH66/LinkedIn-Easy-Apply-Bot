@@ -1,3 +1,10 @@
+<img width="1200" height="655" alt="image" src="https://github.com/user-attachments/assets/ab83f6c8-5861-4630-8860-c804c3449f37" />
+
+
+
+
+
+
 # Linkedin EasyApply Bot
 
 Automate the application process on LinkedIn with an AI-driven agentic pipeline.
